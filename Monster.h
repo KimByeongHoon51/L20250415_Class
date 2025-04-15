@@ -1,9 +1,7 @@
 #pragma once
-class AMonster
+#include "Actor.h"
+
+class AMonster : public AActor
 {
-public:
-	void Run();
-	void Slide();
-	void Crash();
 };
 

@@ -1,5 +1,7 @@
 #pragma once
-class APlayer
+#include "Actor.h"
+
+class APlayer : public AActor
 {
 public:
 	int HP;

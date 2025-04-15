@@ -2,6 +2,9 @@
 #include "Actor.h"
 #include "Player.h"
 #include "Monster.h"
+#include "Goblin.h"
+#include "Slime.h"
+#include "Boar.h"
 using namespace std;
 
 int main()
@@ -12,11 +15,11 @@ int main()
 	Player.CatchMonster();
 	Player.GetGold();
 
-	AMonster Goblin;
+	AGoblin Goblin;
 	Goblin.Run();
-	AMonster Slime;
+	ASlime Slime;
 	Slime.Slide();
-	AMonster Boar;
+	ABoar Boar;
 	Boar.Crash();
 
 	return 0;
