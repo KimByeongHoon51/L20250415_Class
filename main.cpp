@@ -1,43 +1,8 @@
 #include <iostream>
 #include "Actor.h"
+#include "Player.h"
+#include "Monster.h"
 using namespace std;
-
-class APlayer : public AActor
-{
-public:
-	int HP;
-	int MP;
-	void CatchMonster();
-	void GetGold();
-};
-
-class AMonster : public AActor
-{
-public:
-	void Run();
-	void Slide();
-	void Crash();
-};
-
-void APlayer::CatchMonster()
-{
-}
-
-void APlayer::GetGold()
-{
-}
-
-void AMonster::Run()
-{
-}
-
-void AMonster::Slide()
-{
-}
-
-void AMonster::Crash()
-{
-}
 
 int main()
 {
