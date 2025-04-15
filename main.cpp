@@ -9,6 +9,7 @@ int main()
 	APlayer Player;
 	Player.HP;
 	Player.MP;
+	Player.CatchMonster();
 	Player.GetGold();
 
 	AMonster Goblin;
